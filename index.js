@@ -1,6 +1,6 @@
-function takeANumber(katzDeli, otherDeli) {
-  katzDeli.push(`${otherDeli}`)
-  return "Welcome, " + otherDeli + "." +  " You are number " + katzDeli.length + " in line."
+function takeANumber(katzDeli) {
+  
+  return "Welcome, " +  "You are number " + katzDeli.length + " in line."
 }
 
 function nowServing(katzDeli) {
