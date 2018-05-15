@@ -1,5 +1,6 @@
 function takeANumber(katzDeli) {
-  
+  let cust = 1;
+  katzDeli.push(`${cust++}`)
   return "Welcome, " +  "You are number " + katzDeli.length + " in line."
 }
 
